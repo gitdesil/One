@@ -27,9 +27,3 @@ document.getElementById('desencriptar').addEventListener('click', function() {
     const textoDesencriptado = desencriptarTexto(texto);
     document.getElementById('resultado').value = textoDesencriptado;
 });
-
-document.getElementById('copiar').addEventListener('click', function() {
-    const resultado = document.getElementById('resultado');
-    resultado.select();
-    document.execCommand('copy');
-});
