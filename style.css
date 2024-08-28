@@ -84,18 +84,6 @@ button {
   color: #0a3871;
 }
 
-#copiar {
-  background-color: #0a3871;
-  color: #ffffff;
-  width: 150px; /* Ajuste proporcional */
-  height: 40px; /* Ajuste proporcional */
-  font-size: 16px; /* Ajuste proporcional */
-  margin: 10px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-}
-
 footer {
   position: absolute;
   bottom: 10px;
