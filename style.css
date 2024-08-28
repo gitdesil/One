@@ -1,0 +1,106 @@
+ :root {
+  --dark-blue: #0a3871;
+  --main-color: #f3f5fc;
+  --light-blue: #d8dfe8;
+  --while-color: #ffffff;
+  --gray-color: #353535;
+  --black-color: #000000;
+  --light-color: #e8e8e8;
+  --inter-font: "Inter", sans-serif;
+  --console-font: "Console", consolas, monospace;
+}
+      
+
+/*toda la etiqueta body es el fonto*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d8dfe8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#contenedor {
+  width: 720px; /* La mitad de 1440px */
+  height: 512px; /* La mitad de 1024px */
+  background-color: #d8dfe8;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px; /* Para un diseño más moderno */
+}
+
+#logo {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+textarea {
+  width: calc(100% - 40px);
+  height: 100px; /* Ajuste proporcional */
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px; /* Ajuste proporcional */
+  border-radius: 5px;
+  border: 1px solid #0a3871;
+}
+
+button {
+  width: calc(100% - 40px); /* Ajuste proporcional */
+  height: 100px; /* Ajuste proporcional */
+  margin: 10px;
+  font-size: 20px; /* Ajuste proporcional */
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+}
+
+#encriptar {
+  background-color: #0a3871;
+}
+
+#desencriptar {
+  background-color: #ffffff;
+  color: #0a3871;
+  border: 1px solid #0a3871;
+}
+
+#resultado {
+  width: calc(100% - 40px);
+  height: 100px; /* Ajuste proporcional */
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px; /* Ajuste proporcional */
+  border-radius: 5px;
+  border: 1px solid #0a3871;
+  background-color: #ffffff;
+  color: #0a3871;
+}
+
+#copiar {
+  background-color: #0a3871;
+  color: #ffffff;
+  width: 150px; /* Ajuste proporcional */
+  height: 40px; /* Ajuste proporcional */
+  font-size: 16px; /* Ajuste proporcional */
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px; /* Ajuste proporcional */
+  color: #0a3871;
+}
